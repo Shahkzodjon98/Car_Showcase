@@ -34,7 +34,7 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className='flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10'>
+    <div className='flex justify-between items-center md:flex-wrap flex-row mt-10 border-t border-gray-100 sm:px-16 px-6 py-10'>
       <p>@2023 GreenEnergy. All rights reserved</p>
 
       <div className="footer__copyrights-link flex justify-center items-center">
@@ -44,7 +44,7 @@ const Footer = () => (
         <Link href="/" className="text-gray-500">
           Terms & Condition
         </Link>
-          <Link href="https://uis-team.com/" className="text-gray-500 hover:text-green-400">
+          <Link href="https://uis-team.com/" className="text-gray-500 hover:text-green-400 underline-offset-4">
           by <span>UIS-Team</span>
         </Link>
       </div>
