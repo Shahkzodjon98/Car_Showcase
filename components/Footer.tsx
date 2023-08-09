@@ -45,7 +45,7 @@ const Footer = () => (
           Terms & Condition
         </Link>
           <Link href="https://uis-team.com/" className="text-gray-500 hover:text-green-400 ">
-          by <span className="underline-offset-4">UIS-Team</span>
+         MADE by <span className="underline-offset-4">UIS-Team</span>
         </Link>
       </div>
     </div>
